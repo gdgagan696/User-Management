@@ -47,7 +47,7 @@ public class UserServiceImpl implements UserService {
 		allUsers.add(new AppUserDto("gagan", "Gagan", "gdgagan696@gmail.com", "Hello", UserTypeEnum.CONSUMER.name(),
 				null, CommonConstants.PASCHIM_VIHAR_PINCODE));
 
-		allUsers.add(new AppUserDto("shubham", "Shubham", "shubham696@gmail.com", "Hello",
+		allUsers.add(new AppUserDto("shubham", "Shubham", "gagan.dhand@nagarro.com", "Hello",
 				UserTypeEnum.PRODUCER.name(), ServiceType.ELECTRICIAN.name(), CommonConstants.DWARKA_PINCODE));
 
 		allUsers.add(new AppUserDto("hardik", "Hardik Dhingra", "dhingrahardik1997@gmail.com", "Hello", UserTypeEnum.PRODUCER.name(),
